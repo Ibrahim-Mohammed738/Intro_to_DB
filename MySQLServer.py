@@ -9,7 +9,7 @@ mycursor = mydb.cursor()
 
 mycursor.execute(
     """
-CREATE TABLE IF NOT EXISTS alx_book_store (
+CREATE DATABASE IF NOT EXISTS alx_book_store (
   id INT  PRIMARY KEY,
   name VARCHAR(255),
   email VARCHAR(255)
