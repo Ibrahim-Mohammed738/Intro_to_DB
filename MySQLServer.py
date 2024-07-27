@@ -20,7 +20,7 @@ try:
 
     print("Table created successfully!")
 
-except Error as e:
+except mysql.connector.Error:
     print("failing to connect to the DB")
 
 
